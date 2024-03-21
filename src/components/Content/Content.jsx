@@ -7,7 +7,7 @@ const Content = () => {
 
     const blog = useLoaderData()
 
-    const { title, description, published_at, cover_image, tags, body_html } = blog;
+    const { title, cover_image, tags, body_html } = blog;
 
     return (
         <div

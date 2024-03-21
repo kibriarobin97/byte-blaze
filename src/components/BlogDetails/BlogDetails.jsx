@@ -7,10 +7,10 @@ const BlogDetails = () => {
 
     const blog = useLoaderData()
 
-    const { comments_count, public_reactions_count, reading_time_minutes, title, published_at, tags } = blog;
+    const { comments_count, public_reactions_count, reading_time_minutes, title, published_at,} = blog;
 
     return (
-        <div className="max-w-2xl px-6 py-16 mx-auto space-y-12">
+        <div className="max-w-2xl px-6 py-10 mx-auto space-y-12">
             <article className="space-y-8">
                 <div className="space-y-6">
                     <h1 className="text-3xl font-bold md:tracking-tight md:text-5xl">{title}</h1>
