@@ -1,10 +1,17 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useNavigation } from "react-router-dom";
 import Blog from "../Blog/Blog";
+import Loader from "../Loader/Loader";
 
 const Blogs = () => {
 
+    const navigation = useNavigation()
+
     const blogs = useLoaderData()
     // console.log(blogs)
+
+    if(navigation.state === 'loading'){
+        return <Loader></Loader>
+    }
 
     return (
         <section className="py-6">
