@@ -1,2 +1,2 @@
 # Website Name: byte-blaze
-## Live link: bytes-blaze.surge.sh
+## Live link: [https://bytes-blaze.surge.sh/](https://bytes-blaze.surge.sh/)
